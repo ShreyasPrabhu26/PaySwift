@@ -9,11 +9,15 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@payswift/database": "*",
     "@repo/ui": "*",
     "next": "14.2.6",
+    "next-auth": "^4.24.7",
     "react": "18.3.1",
     "react-dom": "18.3.1",
-    "@payswift/database": "*"
+    "recoil": "^0.7.7",
+    "@types/bcrypt": "^5.0.2",
+    "bcrypt": "^5.1.1"
   },
   "devDependencies": {
     "@repo/eslint-config": "*",
